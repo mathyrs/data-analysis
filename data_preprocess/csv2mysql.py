@@ -40,7 +40,7 @@ BATCH_LINE = 10000
 
 encoding='utf-8'
 
-columns = 'table_columns';
+columns = 'table_columns like name varchar(255), id int(8), addr varchar(255)';
 
 def ftpDownload() :
 
